@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="readmore.css">
+</head>
+<body>
+  <div class="box-parent" id="box-parent">
+    <div class="box-child1" id="box-child1">
+      <img src="tickgif.gif" class="tickgif" id="tickgif">
+      <p id="logindone">Login succesfully</p>
+      <p id="registerdone">Register succesfully</p>
+       
+        <ul>
+            <li class="li1" id="li1" onclick="first()"><</li>
+            <li class="li2" id="li2" onclick="second()">.</li>
+            <li class="li3" id="li3" onclick="third()">></li>
+        </ul>
+        <!-------------------------------->
+        <div class="flex-child">
+        <div class="box-child2" id="box-child2">
+          <p>Register</p>
+          <input type="text" placeholder="Name" id="name"class="input2"/>
+          <input type="text" placeholder="Phone no." id="phonenumber" class="input2"/>
+          <input type="text" placeholder="Email id" id="emailid" class="input2"/>
+          <input type="password" placeholder="Password" id="password" class="input2"/>
+          <input type="text" placeholder="Confirm Password" id="confirmpassword" class="input2"/>
+          <button type="button" id="submit" class="login" onclick="registerdone()">Register</button>
+
+        </div>
+        <!-------------------------------->
+        <div class="box-child3" id="box-child3">
+          <H3>Login</H3>
+          <p>Username</p>
+          <input type="text" placeholder="Enter your Username" class="username" id="username">
+          <p>Password</p>
+          <input type="password" placeholder="Enter your Password" class="username" id="password">
+          <a href="" style="position: absolute; top: 70%; font-size: 1.5rem; text-decoration: none; font-family: Arial, Helvetica, sans-serif;">Forget password</a>
+          <button type="button" placeholder="Login" class="login" onclick="tick()">Login</button>
+        </div>
+        <!-------------------------------->
+        <div class="box-child4" id="box-child4">
+
+        </div>
+      </div>
+
+    </div>
+  </div>  
+  <script src="readmore.js"></script>
+</body>
+</html>

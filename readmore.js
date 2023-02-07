@@ -78,7 +78,7 @@ function third(){
    function tick(){
     content4.style.backgroundColor="rgb(0,0,0,30%)";
     content4.style.transition="2s";
-    content3.style.marginTop="100%"
+    content3.style.marginTop="110%"
     content3.style.transition="1s";
     content5.style.top="45%";
     content5.style.transition="1s";
